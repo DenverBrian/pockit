@@ -47,5 +47,8 @@
 		"vitepress": "1.0.0-rc.20",
 		"vitest": "^0.34.6"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"pocketbase": "^0.18.2"
+	}
 }
