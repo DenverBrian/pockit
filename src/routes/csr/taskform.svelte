@@ -44,6 +44,7 @@
 	<input type="submit" value={task.id !== '' ? 'Update' : 'Create'} />
 </form>
 {#if task.id !== ''}
+	<button on:click={() => dispatch('invalidate')}>Cancel update</button>
 	<p>Created: {new Date(task.created).toLocaleString()}</p>
 	<p>Last Updated: {new Date(task.updated).toLocaleString()}</p>
 {/if}
