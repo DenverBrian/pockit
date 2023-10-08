@@ -27,7 +27,7 @@
 	on:submit|preventDefault={handleLogin}
 	style="display: flex; flex-direction: column; width: 300px;"
 >
-	<h1>Login Form</h1>
+	<h1>Login</h1>
 	<label for="identity">Username or email</label>
 	<input type="text" name="identity" />
 	<label for="password">Password</label>

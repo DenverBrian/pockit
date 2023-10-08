@@ -38,7 +38,7 @@
 	on:submit|preventDefault={handleRegister}
 	style="display: flex; flex-direction: column; width: 300px;"
 >
-	<h1>Register Form</h1>
+	<h1>Register</h1>
 	<label for="name">name</label>
 	<input type="text" name="name" id="name" />
 	<label for="username">Username</label>
@@ -51,5 +51,6 @@
 	<input type="password" name="passwordConfirm" id="passwordConfirm" />
 	<label for="avatar">Avatar</label>
 	<input type="file" name="avatar" id="avatar" />
+	<label for="verified">Verified</label>
 	<button type="submit" style="margin-top: 10px">Register</button>
 </form>
