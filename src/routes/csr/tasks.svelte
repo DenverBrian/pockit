@@ -85,6 +85,7 @@
 					<button
 						on:click={() => handleDescriptionClick(task)}
 						class="transparent"
+						style="color: white;"
 					>
 						{task.description} -
 					</button>
